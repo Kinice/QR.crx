@@ -1,0 +1,11 @@
+{  
+  "name": "QrCodeCreater",  
+  "version": "1.0.0",  
+  "description": "Create your qr code.",  
+  "manifest_version": 2,
+  "browser_action": {  
+    "default_icon": "icon.png" ,
+    "default_title": "Qr Code Creater",
+    "default_popup": "popup.html"
+  }  
+} 
