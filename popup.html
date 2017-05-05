@@ -1,35 +1,43 @@
-<style>
-    .g-con{
-        width: 300px;
-        padding: 0 20px 10px;
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-        font-weight: 100;
-    }
-    textarea{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .qr-con{
-        margin: 0 auto 10px;
-        width: 200px;
-        height: 200px;
-        padding: 25px;
-        border: 1px solid #666;
-    }
-    button{
-        background-color: #fff;
-        border: 1px solid #666;
-        padding: 5px 15px;
-        border-radius: 3px;
-    }
-</style>
-<div class="g-con">
-    <h1>QR Code Creater</h1>
-    <textarea id="text"></textarea>
-    <div class="qr-con" id="qr"></div>
-    <button id="btn">生成</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .g-con{
+            width: 300px;
+            padding: 0 20px 10px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-weight: 100;
+        }
+        textarea{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .qr-con{
+            margin: 0 auto 10px;
+            width: 200px;
+            height: 200px;
+            padding: 25px;
+            border: 1px solid #666;
+        }
+        button{
+            background-color: #fff;
+            border: 1px solid #666;
+            padding: 5px 15px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="g-con">
+        <h1>QR Code Creater</h1>
+        <textarea id="text"></textarea>
+        <div class="qr-con" id="qr"></div>
+        <button id="btn">生成</button>
+    </div>
 <script src="popup.js"></script>
+</body>
+</html>
