@@ -1,6 +1,8 @@
 # QR.crx
 自用二维码生成插件
 
+[Chrome应用商店地址（需翻墙）](https://chrome.google.com/webstore/detail/qrcodecreater/pbikgacicobhenmmbpmnikhnnhenolap?hl=zh-CN&gl=CN)
+
 ## Usage
 
 克隆此项目到电脑
