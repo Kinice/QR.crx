@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <style>
         .g-con{
-            width: 300px;
+            width: 320px;
             padding: 0 20px 10px;
             text-align: center;
         }
-        h1{
+        .g-con h1{
             text-align: center;
             font-weight: 100;
         }
-        textarea{
+        .g-con textarea{
             width: 100%;
             margin-bottom: 10px;
         }
-        .qr-con{
+        .g-con .qr-con{
             margin: 0 auto 10px;
-            width: 200px;
-            height: 200px;
+            width: 240px;
+            height: 240px;
             padding: 25px;
             border: 1px solid #666;
         }
-        button{
+        .g-con .qr-con img{
+            width: 100%;
+        }
+        .g-con button{
             background-color: #fff;
             border: 1px solid #666;
             padding: 5px 15px;
@@ -37,7 +40,8 @@
         <textarea id="text"></textarea>
         <div class="qr-con" id="qr"></div>
         <button id="btn">生成二维码</button>
-        <button id="this-btn">生成本页面二维码</button>
+        <button id="this-btn">生成本页二维码</button>
+        <button id="download">下载</button>
     </div>
 <script src="popup.js"></script>
 </body>
