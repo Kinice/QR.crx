@@ -1,7 +1,7 @@
 //xhr object
 var xhr = new XMLHttpRequest()
-// var url = 'http://kinice.top/api/qrimage'
-var url = 'http://localhost:3000/api/qrimage'
+var url = 'http://kinice.top/api/qrimage'
+//var url = 'http://localhost:3000/api/qrimage'
 var qrurl = localStorage.qrurl || ''
 var imgBase64 = ''
 //Elements
